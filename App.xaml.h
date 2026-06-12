@@ -1,6 +1,7 @@
 #pragma once
-
 #include "App.xaml.g.h"
+
+import winrt.Microsoft.UI.Xaml;
 
 namespace winrt::App1::implementation
 {

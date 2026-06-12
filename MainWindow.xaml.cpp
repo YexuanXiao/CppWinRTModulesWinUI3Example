@@ -1,8 +1,10 @@
-#include "pch.h"
+
+#include "XamlWorkaround.h"
 #include "MainWindow.xaml.h"
 #if __has_include("MainWindow.g.cpp")
 #include "MainWindow.g.cpp"
 #endif
+import winrt.Microsoft.UI.Xaml;
 
 using namespace winrt;
 using namespace Microsoft::UI::Xaml;
