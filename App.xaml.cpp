@@ -1,7 +1,14 @@
-#include "pch.h"
+// Windows headers or third-party headers
+#include <windows.h>
+#include <debugapi.h>
+#include <cassert>
+
+// Xaml headers
+#include "XamlWorkaround.h"
 #include "App.xaml.h"
 #include "MainWindow.xaml.h"
 
+// Imports must come after includes.
 using namespace winrt;
 using namespace Microsoft::UI::Xaml;
 
